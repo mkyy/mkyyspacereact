@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    right: 5vw;
+}
+
+.link{
+    text-decoration: none;
+    color: burlywood;
+    border-bottom: 2px solid hsl(32, 98%, 56%);
+    padding: 8px 15px;
+    margin: 15px;
+}
+
+.link:hover{
+    color: hsl(32, 98%, 56%);
+}

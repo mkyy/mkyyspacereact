@@ -1,0 +1,43 @@
+.center{
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.initial{
+    background-color: #1C0A00;
+}
+
+.initial-content{
+    display: flex;
+    height: 100vh;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rocket{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.imagem-me{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.text-initial{
+    text-align: left;
+    margin-left: 5vw;
+}
+
+.box-initial{
+    max-width: fit-content;
+    display: flex;
+    background-color: #130f0d;
+    padding: 30px;
+    border-radius: 50px 10px;
+    margin-bottom: 25px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
