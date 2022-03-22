@@ -1,7 +1,7 @@
 import React from "react";
 import AboutMe from "../AboutMe";
 import Header from "../Header";
-import SocialIcons from "../../SocialIcons";
+import SocialIcons from "../SocialIcons";
 
 import './style.css';
 

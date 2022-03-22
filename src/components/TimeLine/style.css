@@ -1,0 +1,7 @@
+.timeline-wrapper{
+    /* background-color: #98B4AA; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    min-height: 100vh;
+}

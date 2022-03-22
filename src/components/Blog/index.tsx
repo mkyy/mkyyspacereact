@@ -1,11 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import TimeLine from "../TimeLine";
+import Header from "../Header";
+
+import './style.css';
 
 export default class Blog extends React.Component{
 
+
+
     render(): React.ReactNode {
         return(
-            <Link className="linkToHome" to={'/'}>HOME</Link>
+
+            <div className="blog-wrapper">
+            <Header/>
+
+            <TimeLine/>
+
+            
+            </div>
         )
     }
 

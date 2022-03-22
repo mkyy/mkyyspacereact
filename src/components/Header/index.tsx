@@ -6,10 +6,10 @@ import './style.css';
 export default function Header() {
     return (
         <header>
-
+            
+                <Link className="link" to={'/'}>HOME</Link>
                 <Link className="link" to={'/blog'}>BLOG</Link>
                 <Link className="link" to={'/portfolio'}>PORTFOLIO</Link>
-                <Link className="link" to={'/contact'}>CONTATO</Link>
 
         </header>
     )

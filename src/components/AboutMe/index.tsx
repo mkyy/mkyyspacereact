@@ -4,12 +4,12 @@ import './style.css';
 
 export default function AboutMe() {
     return(
-        <div className="aboutme-div">
-
-
+        <section className="colored"> 
 
             <div className="duocontent center">
 
+                <div className="aboutme-div"></div>
+                
                 <div className="about-me">
                     <p>Nascido no estado de Minas Gerais, no ano de 2000, o ultimo ano do século XX.</p>
                     <p>Desde cedo tive interesse por tecnologia e programação, aos 14 anos estava fazendo curso no youtube sobre python, como você deve imaginar, não consegui aprender nada porque não tinha nenhuma base de lógica de programação e simplesmente imprimia coisas na tela na esperança de um dia fazer um script para hackear minha escola.</p>
@@ -18,7 +18,7 @@ export default function AboutMe() {
                 </div>
 
             </div>
-            
-        </div>
+
+        </section>
     )
 }

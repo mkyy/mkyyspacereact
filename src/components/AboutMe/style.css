@@ -1,12 +1,25 @@
 .aboutme-div{
-    background-color: #361500;
-    height: 100vh;
+    border-radius: 10%;
+    width: 500px;
+    height: 550px;
+
+
     background-image: url(./assets/me-coding.jpeg);
+    background-position: 50%;
+    background-size:cover;
     background-repeat: no-repeat;
-    background-size: 35% 90%;
-    background-position-y: center;
-    background-position-x: 20%;
-    
+    box-shadow: -10px 10px 5px #495371;
+
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    z-index: 0;
+}
+
+.colored{
+    height: 100vh;
+    background: rgb(73,83,113);
+    background: linear-gradient(180deg, rgba(73,83,113,1) 2%, rgba(116,149,154,1) 10%); 
 }
 
 .title{
@@ -15,11 +28,12 @@
 
 .duocontent{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    position: relative;
+    justify-content:flex-end;
 }
 
 .about-me{
+    z-index: 1;
     margin-top: 5%;
     text-align: justify;
     width: 60%;

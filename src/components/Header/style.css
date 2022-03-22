@@ -1,13 +1,14 @@
 header{
     display: flex;
     justify-content: right;
-    position: fixed;
+    position: absolute;
     right: 5vw;
+    top:0;
 }
 
 .link{
     text-decoration: none;
-    color: burlywood;
+    color: #130f0d;
     border-bottom: 2px solid hsl(32, 98%, 56%);
     padding: 8px 15px;
     margin: 15px;
