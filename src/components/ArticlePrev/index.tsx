@@ -21,7 +21,7 @@ export default function ArticlePrev(props: ArticlePrevProps) {
 
             <p className="paragraph">{props.articleDesc}</p>
 
-            <a className="button-seemore"  href={props.articleID}  > Veja mais... </a>
+            <Link className="button-seemore"  to={props.articleID}  > Veja mais... </Link>
 
         </div>
     )
