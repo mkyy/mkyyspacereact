@@ -1,5 +1,5 @@
 import React from "react";
-import PortfolioItem from "../../PortfolioItem";
+import PortfolioItem from "../PortfolioItem";
 import Header from "../Header";
 
 import './style.css';

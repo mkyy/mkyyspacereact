@@ -19,9 +19,9 @@ export default function ArticlePrev(props: ArticlePrevProps) {
 
             <img className="article-img" src={props.articleImg} alt="article image" />
 
-            <p>{props.articleDesc}</p>
+            <p className="paragraph">{props.articleDesc}</p>
 
-            <Link to={'/blog/{props.articleID}'} > Veja mais... </Link>
+            <a className="button-seemore"  href={props.articleID}  > Veja mais... </a>
 
         </div>
     )

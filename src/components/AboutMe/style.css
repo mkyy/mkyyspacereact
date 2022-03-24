@@ -1,10 +1,10 @@
-.aboutme-div{
+.aboutd{
     border-radius: 10%;
     width: 500px;
     height: 550px;
 
 
-    background-image: url(./assets/me-coding.jpeg);
+    background-image: url(/assets/me-coding.jpeg);
     background-position: 50%;
     background-size:cover;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@
     justify-content:flex-end;
 }
 
-.about-me{
+.about-me-to-animate{
     z-index: 1;
     margin-top: 5%;
     text-align: justify;
@@ -43,6 +43,19 @@
     border-radius: 50px 10px;
     margin-bottom: 25px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+    /* animation */
+
+
+
 }
 
-
+.about-me-to-animate {
+    opacity: 0;
+    transition: 1s;
+    transform:translate3d(0, -70px, 0);
+}
+.animate {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}

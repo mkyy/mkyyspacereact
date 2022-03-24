@@ -6,6 +6,7 @@ import SocialIcons from "../SocialIcons";
 import './style.css';
 
 export default function HomePage(){
+
     return(
         <div>
             <Header/>
@@ -14,7 +15,7 @@ export default function HomePage(){
                 <div className="center initial-content">
 
                     <div className="box-initial">
-                        <img className="imagem-me" src='./assets/myself.jpg' alt="imagem aqui"/>
+                        <img className="imagem-me" src='/assets/myself.jpg' alt="imagem aqui"/>
                         <div className="text-initial">
                             <h1>
                                 <img className="rocket" src="./assets/icons/rocket.png" alt="" />

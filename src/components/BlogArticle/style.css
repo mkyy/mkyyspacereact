@@ -1,0 +1,11 @@
+code{
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 40px;
+}
+
+.blogarticle-wrapper{
+    width: 80%;
+    margin: 10vh auto;
+}
