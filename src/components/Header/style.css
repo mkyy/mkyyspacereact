@@ -8,12 +8,18 @@ header{
 
 .link{
     text-decoration: none;
-    color: #130f0d;
+    color: #000;
     border-bottom: 2px solid hsl(32, 98%, 56%);
+    border-right: 2px solid hsl(32, 98%, 56%);
     padding: 8px 15px;
     margin: 15px;
+
+    /* transition: .1s; */
 }
 
 .link:hover{
-    color: hsl(32, 98%, 56%);
+    border-top: 2px inset #a40000;
+    border-left: 2px inset #a40000;
+    border-bottom: none;
+    border-right: none;
 }
